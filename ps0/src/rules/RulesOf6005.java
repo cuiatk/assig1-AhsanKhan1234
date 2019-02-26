@@ -36,10 +36,19 @@ public class RulesOf6005 {
             boolean availableToOthers, boolean writtenAsCourseWork,
             boolean citingYourSource, boolean implementationRequired) {
         
+    	
+    	boolean allowedToUseCodeInQuestionInAssignment = false;
         // TODO: Fill in this method, then remove the exception
-        
-        throw new RuntimeException("implement me!");
+        if (writtenByYourself==true && availableToOthers==false && writtenAsCourseWork==true && citingYourSource==true && implementationRequired==true)
+        {
+        	allowedToUseCodeInQuestionInAssignment=true;
+        }
+    	
+ 
+      
+		return allowedToUseCodeInQuestionInAssignment;
     }
+    
     
     /**
      * Main method of the class.

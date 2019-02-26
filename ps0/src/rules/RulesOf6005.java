@@ -38,14 +38,15 @@ public class RulesOf6005 {
         
     	
     	boolean allowedToUseCodeInQuestionInAssignment = false;
-        // TODO: Fill in this method, then remove the exception
+    	
+       //if below conditions are satisfied then student is allowed to use code in assignment
         if (writtenByYourself==true && availableToOthers==false && writtenAsCourseWork==true && citingYourSource==true && implementationRequired==true)
         {
         	allowedToUseCodeInQuestionInAssignment=true;
         }
     	
  
-      
+        
 		return allowedToUseCodeInQuestionInAssignment;
     }
     

@@ -39,15 +39,14 @@ public class RulesOf6005 {
     	
     	boolean allowedToUseCodeInQuestionInAssignment = false;
     	
-       //if below conditions are satisfied then student is allowed to use code in assignment
+      
         if (writtenByYourself==true && availableToOthers==false && writtenAsCourseWork==true && citingYourSource==true && implementationRequired==true)
         {
+        	 //if below conditions are satisfied then student is allowed to use code in assignment
         	allowedToUseCodeInQuestionInAssignment=true;
         }
     	
- 
-       
-		return allowedToUseCodeInQuestionInAssignment;
+           return allowedToUseCodeInQuestionInAssignment;
     }
     
     

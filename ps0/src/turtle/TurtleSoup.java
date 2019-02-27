@@ -38,6 +38,10 @@ public class TurtleSoup {
     	double angleInDegrees=0.0;
     	if (sides>2)
     	{
+    		/** 
+   	     as the formula will give us double value 
+   		and we need integer number of sides
+   		so we add a type cast int which will convert double into float */
     		angleInDegrees=(sides-2)*180.0/sides;
     	}
     	else {
